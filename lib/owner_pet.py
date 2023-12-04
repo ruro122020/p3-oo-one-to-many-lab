@@ -52,11 +52,3 @@ class Owner:
     def get_sorted_pets(self):
         return sorted(self.pets(), key=lambda pet: pet.name)
     
-        
-# owner = Owner("John")
-# pet1 = Pet("Fido", "dog", owner)
-# pet2 = Pet("Clifford", "dog", owner)
-# pet3 = Pet("Whiskers", "cat", owner)
-# pet4 = Pet("Jerry", "reptile", owner)
-
-# print(owner.get_sorted_pets())
